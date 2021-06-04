@@ -11,6 +11,7 @@ nav {
     text-align: right;
 }
 
+
 a{
     display: inline-flex;
     align-items: center;
@@ -20,6 +21,13 @@ a{
     font-weight: 400;
     text-decoration: none;
     margin-right: 1.875rem;
+    transition: 200ms transform ease-in-out;
+}
+
+a:hover{
+    transform: scale(1.1);
+    transition: 300ms transform cubic-bezier(0.42, 0, 0.47, 2.74);
+
 }
 
 a::before {
@@ -32,6 +40,15 @@ a::before {
     border-radius: 10px;
 }
 
+img{
+    transition: 200ms transform ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: 300ms transform cubic-bezier(0.42, 0, 0.47, 2.74);
+}
+
 #button {
     display: inline-block;
     background-color: #00E5FF;
@@ -40,5 +57,13 @@ a::before {
     box-shadow: 5px 5px 0px #000000;
     border-radius: 22px;
     margin-right: 0;
+    transition: background-color .5s;
+    transition: 200ms transform ease-in-out;
+}
+
+#button:hover {
+    background-color: #05C2D8;
+    transform: scale(1.1);
+    transition: 300ms transform cubic-bezier(0.42, 0, 0.47, 2.74);
 }
 
