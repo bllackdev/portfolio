@@ -1,0 +1,26 @@
+.action{
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 1.875rem;
+    transition: 200ms transform ease-in-out;
+}
+
+.action:hover{
+    transform: scale(1.1);
+    transition: 300ms transform cubic-bezier(0.42, 0, 0.47, 2.74);
+
+}
+
+.action::before {
+    content: "";
+    background-color: #00E5FF;
+    width: 10px;
+    height: 10px;
+    margin-top: 3.5px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
