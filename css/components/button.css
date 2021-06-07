@@ -1,9 +1,9 @@
 .button {
     display: inline-block;
-    background-color: #00E5FF;
+    background-color: #575559;
     padding: 18px 20px;
     padding-right: 22px;
-    box-shadow: 5px 5px 0px #000000;
+    box-shadow: 5px 5px 0px #CDCDCD;
     border-radius: 22px;
     text-decoration: none;
     margin-right: 0;
@@ -14,7 +14,7 @@
 }
 
 .button:hover {
-    background-color: #05C2D8;
+    background-color: #7A767E;
     transform: scale(1.1);
     transition: 300ms transform cubic-bezier(0.42, 0, 0.47, 2.74);
 }
