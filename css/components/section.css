@@ -1,8 +1,11 @@
 .section{
     background-color: #603985;
-    background-size: 100%;
-    height: 800px;
     padding-top: 50px;
     padding-bottom: 130px;
     border-bottom: 10px solid #FFF;
+}
+
+
+.section .main-title{
+    margin-bottom: 60px;
 }

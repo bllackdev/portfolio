@@ -1,0 +1,16 @@
+.wrapper-skills{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    /* Centralizar Skills */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper-skills .skill-tec:nth-child(odd){
+    margin-right: 100px;
+}
+
+.wrapper-skills .skill-tec{
+    width: 430px;
+}

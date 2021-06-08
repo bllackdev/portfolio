@@ -1,8 +1,10 @@
 .skill-tec{
     display: flex;
     font-family: "Palanquin Dark", sans-serif;
+    align-items: center;
     font-size: 40px;
     color: #FFF;
+    margin-bottom: 40px;
 }
 
 .skill-tec .icon{

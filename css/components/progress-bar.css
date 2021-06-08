@@ -4,11 +4,11 @@
     border: 5px solid #000;
     width: 320px;
     height: 40px;
-    border-radius: 18px;
+    border-radius: 1.125rem;
 }
 
 .progress-bar::-webkit-progress-bar,
 .progress-bar::-moz-progress-bar{
     background-color: #575559;
-    border-radius: 12px 0 0 12px;
+    border-radius: 0.75rem 0 0 0.75rem;
 }
