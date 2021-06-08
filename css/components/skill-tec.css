@@ -1,0 +1,21 @@
+.skill-tec{
+    display: flex;
+    font-family: "Palanquin Dark", sans-serif;
+    font-size: 40px;
+    color: #FFF;
+}
+
+.skill-tec .icon{
+    margin-right: 20px;
+}
+
+.skill-tec .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.skill-tec .right .title{
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
