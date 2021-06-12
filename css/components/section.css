@@ -9,3 +9,8 @@
 .section .main-title{
     margin-bottom: 60px;
 }
+
+.section.-cards{
+    background-color: #000;
+    border-bottom: 10px solid #4C5B84;
+}

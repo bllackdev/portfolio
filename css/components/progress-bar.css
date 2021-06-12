@@ -7,8 +7,17 @@
     border-radius: 1.125rem;
 }
 
-.progress-bar::-webkit-progress-bar,
 .progress-bar::-moz-progress-bar{
     background-color: #575559;
     border-radius: 0.75rem 0 0 0.75rem;
+}
+
+.progress-bar::-webkit-progress-bar{
+    background-color: #FFF;
+    border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
+}
+
+.progress-bar::-webkit-progress-value{
+    background-color: #575559;
+    border-radius: 0.60rem 0 0 0.60rem;
 }
