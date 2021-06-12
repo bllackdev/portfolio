@@ -2,19 +2,19 @@
     text-align: center;
 }
 
-.project-card .box{
+.project-card .main-box{
     padding: 13px 9px;
 }
 
-.project-card .box.-purple{
+.project-card .main-box.-purple{
     background-color: #512DA8;
 }
 
-.project-card .box.-green{
+.project-card .main-box.-green{
     background-color: #5F8B6B;
 }
 
-.project-card .box.-blue{
+.project-card .main-box.-blue{
     background-color: #4C5B84;
 }
 

@@ -1,4 +1,4 @@
-.action{
+.main-action{
     display: inline-flex;
     align-items: center;
     color: #FFF;
@@ -9,13 +9,13 @@
     transition: 200ms transform ease-in-out;
 }
 
-.action:hover{
+.main-action:hover{
     transform: scale(1.1);
     transition: 300ms transform cubic-bezier(0.42, 0, 0.47, 2.74);
 
 }
 
-.action::before {
+.main-action::before {
     content: "";
     background-color: #00E5FF;
     width: 10px;
