@@ -30,9 +30,9 @@
     <link rel="stylesheet" href="css/components/main-description.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
     <link rel="stylesheet" href="css/components/wrapper-social.css">
-
-
-
+    <link rel="stylesheet" href="css/components/main-input.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
+    <link rel="stylesheet" href="css/components/wrapper-contact.css">
 
 </head>
 <body>
@@ -180,6 +180,26 @@
             </p>
             <img src="./assets/img/photo.svg" alt="Foto Raphael">
         </div>
+    </section>
+    <section id="contact" class="main-section -contact">
+        <form>
+            <h1 class="main-title -second">Fale Comigo</h1>
+            <div class="wrapper-contact">
+                <label class="main-label" for="name">Nome</label>
+                <input id="name" class="main-input" type="text" required>
+                
+                <label class="main-label" for="email">Email</label>
+                <input id="email" class="main-input" type="email" required>
+                
+                <label class="main-label" for="subject">Assunto</label>
+                <input id="subject" class="main-input" type="text" required>
+               
+                <label class="main-label" for="message">Mensagem</label>
+                <textarea id="message" class="main-input -textarea"  required ></textarea>
+                
+                <button class="main-button -subimit" type="submit" >Enviar</button>
+            </div>
+        </form>
     </section>
     <footer class="main-footer"> 
         <div class="wrapper-social">

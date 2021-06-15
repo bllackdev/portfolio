@@ -53,3 +53,8 @@ button{
 	border: none;
 	font-family: inherit;
 }
+
+input{
+	padding: 0;
+	margin: 0;
+}

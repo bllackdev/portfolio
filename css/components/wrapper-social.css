@@ -11,6 +11,6 @@
 
 .wrapper-social .social-icon:hover{
     transform: scale(1.1);
-    transition: 300ms transform cubic-bezier(0.42, 0, 0.47, 2.74);
+    transition: 300ms transform cubic-bezier(0.42, 0, 0.47, 5.74);
     
 }

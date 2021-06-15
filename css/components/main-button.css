@@ -18,3 +18,19 @@
     transform: scale(1.1);
     transition: 300ms transform cubic-bezier(0.42, 0, 0.47, 2.74);
 }
+
+.main-button.-subimit{
+    box-shadow: 5px 5px 0px #000;
+    width: 410px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-top: 13px;
+}
+
+.main-button.-subimit:hover {
+    background-color: #414043;
+    transform: scale(1.1);
+    transition: 300ms transform cubic-bezier(0.42, 0, 0.47, 1.74);
+}
