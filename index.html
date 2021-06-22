@@ -182,26 +182,25 @@
         </div>
     </section>
     <section id="contact" class="main-section -contact">
-        <form action="mailto:rapha_rmm@hotmail.com" method="GET">
+        <form action="https://api.staticforms.xyz/submit" method="POST">
             <h1 class="main-title -second">Fale Comigo</h1>
+            <input type="hidden" name="accessKey" value="ce948459-62c3-4011-9e5e-7fc0caaa8fa5">
             <div class="wrapper-contact">
-                <img src="./assets/img/in-progress.svg" alt="Logo In Progress">
-            </div>
-            <!-- <div class="wrapper-contact">
                 <label class="main-label" for="name">Nome</label>
-                <input id="name" class="main-input" type="text" required>
+                <input id="name" name="name" class="main-input" type="text" required>
                 
                 <label class="main-label" for="email">Email</label>
-                <input id="email" class="main-input" type="email" required>
+                <input id="email" name="email" class="main-input" type="email" required>
                 
                 <label class="main-label" for="subject">Assunto</label>
-                <input id="subject" class="main-input" type="text" required>
+                <input id="subject" name="subject" class="main-input" type="text" required>
                
                 <label class="main-label" for="message">Mensagem</label>
-                <textarea id="message" class="main-input -textarea"  required ></textarea>
+                <textarea id="message" name="message" class="main-input -textarea"  required ></textarea>
                 
                 <button class="main-button -subimit" type="submit" >Enviar</button>
-            </div> -->
+            </div>
+            <input type="hidden" name="redirectTo" value="http://localhost:5500/#contact">
         </form>
     </section>
     <footer class="main-footer"> 
