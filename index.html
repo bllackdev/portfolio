@@ -36,7 +36,7 @@
 
 </head>
 <body>
-    <header class="main-header">
+    <header id="home" class="main-header">
         <img src="assets/img/logo.svg" alt="Logo" />
 
         <nav>
@@ -47,15 +47,15 @@
             <a class="main-button" href="./assets/files/cv-raphaelrenato.pdf" lang="en" download>Download CV</a>
         </nav>
     </header>
-    <section class="main-banner">
+    <section id="banner" class="main-banner">
         <div class="wrapper">
             <div class="main-box">
                 <h1 class="main-title">Raphael Renato</h1>
-                <h2 class="main-subtitle">FullStack Developer</h2>
+                <h2 class="main-subtitle">Front-End Developer</h2>
             </div>
             <div class="navigation">
                 <a class="main-button" href="./assets/files/cv-raphaelrenato.pdf" lang="en">Download CV</a>
-                <a class="main-button" href="#contact" download>Fale Conosco</a>
+                <a class="main-button" href="#contact">Fale Conosco</a>
             </div>
         </div>
     </section>
@@ -201,6 +201,11 @@
                 <button class="main-button -subimit" type="submit" >Enviar</button>
             </div>
             <input type="hidden" name="redirectTo" value="https://bllackdev.vercel.app/#contact">
+            <div class="-wapper-arrow">
+                <a href="#home" class="main-button -arrow">
+                    <img class="-img-arrow" src="./assets/img/icons/arrow-up.svg" alt="Voltar ao topo">
+                </a>
+            </div>
         </form>
     </section>
     <footer class="main-footer"> 

@@ -30,7 +30,34 @@
 }
 
 .main-button.-subimit:hover {
+    background-color: #575559;
+    transform: scale(1.1);
+    transition: 300ms transform cubic-bezier(0.42, 0, 0.47, 1.74);
+    text-decoration: none;
+    box-shadow: 5px 5px 0px #000;
+}
+
+.-wapper-arrow {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-button.-arrow {
+    text-decoration: none;
+    box-shadow: 5px 5px 0px #000;
+    height: 24px;
+    width: 24px;
+    margin-right: 4rem;
+}
+
+.main-button.-arrow:hover {
     background-color: #414043;
     transform: scale(1.1);
     transition: 300ms transform cubic-bezier(0.42, 0, 0.47, 1.74);
+    text-decoration: none;
+}
+
+.-img-arrow {
+    width: 24px;
+    height: 24px;
 }
